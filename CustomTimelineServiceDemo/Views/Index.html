@@ -1,0 +1,35 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title></title>
+</head>
+<body>
+    <div>
+        <div style="margin:20px">
+            <div style="margin-bottom:20px;">
+                Samples are in file MTServiceController.cs. <br />
+                Dto objects are easily reusable, all you need to do is fill them with your own data. You will find them in Models/Dto folder.
+            </div>
+            <div>
+                Sample links:<br />
+                <a href="/MTService/OnlyTimes/?fromTime=2011-03-10T00:00:00&toTime=2011-03-11T00:00:00">Simple sample response</a><br />
+                <a href="/MTService/TimesAndTitle/?fromTime=2011-03-10T00:00:00&toTime=2011-03-11T00:00:00">Titles included sample response</a><br />
+                <a href="/MTService/ActivitiesAndGroups/?fromTime=2011-03-10T00:00:00&toTime=2011-03-11T00:00:00">Groups included sample response</a><br />
+            </div>
+            <br />
+            <div>
+                When adding above links to ManicTime, remove remove everything after ? (including ?), so that links look like:<br />
+                http://localhost:[some port]/MTService/OnlyTimes/<br />
+                http://localhost:[some port]/MTService/TimesAndTitle/<br />
+                http://localhost:[some port]/MTService/ActivitiesAndGroups/<br />
+                <br />
+                <br />
+                ManicTime will add <b>fromTime</b> and <b>toTime</b> parameters.
+
+            </div>
+        </div>
+    </div>
+</body>
+</html>
